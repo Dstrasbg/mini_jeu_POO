@@ -12,7 +12,7 @@ while player1.life_points > 0 && player2.life_points > 0
     #le jeu continue tant qu'un reste vivant, au moins 1 vie restant
 
 puts "\n Voici l'état de chaque joueur"
-#solde devies pour chacun 
+#solde de vies pour chacun 
 player1.show_state
 player2.show_state
 
@@ -27,4 +27,6 @@ player2.attacks(player1)
 #attque de retour du 2e sur le 1er
 
 end
-binding.pry #appel gem pry pour tester l'app
+
+binding.pry 
+#appel gem pry pour tester l'app
